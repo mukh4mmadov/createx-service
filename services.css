@@ -1,0 +1,109 @@
+/* MAIN STYLES START */
+
+/* SECTION HERO STYLES START */
+
+.main {
+}
+.wrapper__top {
+  background-color: var(--gray-200-color);
+  background-image: url(../../images/hero_bgi.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__homepage {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-800-color);
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.hero__homepage span {
+  color: var(--gray-600-color);
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 1.3em;
+  letter-spacing: 0.1rem;
+  color: var(--gray-900-color);
+  margin-bottom: 24px;
+}
+.hero__description {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5em;
+  color: var(--gray-700-color);
+  width: 600px;
+  margin-bottom: 179px;
+}
+
+/* SECTION HERO STYLES END */
+
+/* SECTION SERVICES TYPES START */
+
+.main {
+  background-image: url(../../images/types_bg_img1.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-image: url(../../images/types_bg_img2.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.main__container {
+}
+.container {
+}
+.services__types {
+  padding-bottom: 180px;
+}
+.types__list {
+  gap: 120px;
+}
+.types__item {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.types__img {
+}
+.types__texts {
+}
+.types__texts_title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.5em;
+  color: var(--gray-900-color);
+  margin-bottom: 24px;
+}
+.types__texts_description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  color: var(--gray-700-color);
+  margin-bottom: 48px;
+}
+.types__texts_btn {
+  background-color: var(--white-color);
+  border-color: var(--orange-color);
+  color: var(--orange-color);
+
+  &:hover {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+/* SECTION SERVICES TYPES END */
+
+/* MAIN STYLES END */
